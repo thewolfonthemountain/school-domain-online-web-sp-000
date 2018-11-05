@@ -18,7 +18,6 @@ end
 
 def sort
   @roster.each {|grade, names|
-    grade.sort
     names.sort}
 end
 
