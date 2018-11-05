@@ -20,7 +20,6 @@ def sort
   @roster.each do |grade, names|
     names.each do |a,b| a <=> b
     end
-    end
   end
 end
 
