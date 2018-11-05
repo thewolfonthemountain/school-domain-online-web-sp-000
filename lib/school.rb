@@ -18,8 +18,9 @@ end
 
 def sort
   @roster.each do |grade, names|
-    binding.pry
-    names.sort
+    names.each do |a,b| a <=> b
+    end
+    end
   end
 end
 
