@@ -18,8 +18,7 @@ end
 
 def sort
   @roster.each do |grade, names|
-    names.each do |a,b| a <=> b
-    end
+    names.sort
   end
 end
 
